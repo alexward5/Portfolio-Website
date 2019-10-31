@@ -1,22 +1,22 @@
 .App {
-  text-align: center;
+  font-size: 2rem;
 }
 
-.App-logo {
-  height: 40vmin;
+.container {
+  width: 95%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header-font {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
 }
 
-.App-link {
-  color: #09d3ac;
+@media only screen and (max-width: 900px) {
+ .App {
+   font-size: 1.6rem;
+ }
 }
